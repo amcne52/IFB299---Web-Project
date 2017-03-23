@@ -5,6 +5,8 @@
 
 #logo{
 	float:left;
+	width: 180px;
+	height:96px;
 }
 
 #login ul{
