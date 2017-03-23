@@ -24,6 +24,10 @@
 	  margin-right: -4px;
 }
 
+#login li a{
+	border:#3954a5;
+}
+
 #nav ul{
 	  clear: both;
 	  list-style: none;
