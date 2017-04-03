@@ -1,0 +1,21 @@
+#contactForm{
+	margin:auto;
+}
+
+#contactDetails{
+	width:35%;
+	padding-top:20px;
+	padding-right:15px;
+	float:left;
+	text-align:right;
+}
+
+#map{
+	width:60%;
+	padding-top:20px;
+	float:right;
+}
+
+#format{
+	clear:both;
+}
