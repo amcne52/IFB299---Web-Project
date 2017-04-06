@@ -1,6 +1,7 @@
 #contactForm{
 	margin:auto;
 	width:400px;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #contactDetails{
@@ -9,6 +10,7 @@
 	padding-right:15px;
 	float:left;
 	text-align:right;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #map{
