@@ -1,5 +1,24 @@
 #body{
-	padding-left:100px;
-	padding-right:100px;
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+#image-container {
+	margin: auto;
+	clear:left;
+	width: 99%;
+    height: 70%;
+	background: url('../images/househeader.jpg');
+}
+
+#form-container {
+	width: 350px;
+	clear: both;
+	padding: 100px;
+	margin: auto;
+	color:white;
+	text-transform: uppercase;
+	text-shadow: 1px 1px black;
+	background: rgba(50, 50, 50, 0.5);
+}
+
+
