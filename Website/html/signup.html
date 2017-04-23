@@ -7,6 +7,8 @@
 			<link rel="stylesheet" href = "../css/index.css">
 			<link rel="stylesheet" href="../css/header.css">
 			<link rel="stylesheet" href="../css/footer.css">
+			<link rel="stylesheet" href="../css/signup.css">
+			
 			<script type="text/javascript" src="../javascript/index.js"></script>
 			
 			<title>Dave's property managment</title>
@@ -39,6 +41,37 @@
 		<body>
 	
 			<div id="body">
+				
+				<h2>Create an Account</h2>
+		
+					<form onsubmit="return validate()">
+		 
+						Username: <input id="username" type="text" name="username">
+						<span id="usernameMissing" class="error-message"> Field Required</span><br><br>
+		 
+						Password: <input type="password" name="password" id="password"> 
+						<span id="passwordMissing" class="error-message"> Field Required</span><br>
+						
+						<br>
+		 
+						Confirm Password: <input type="password" name="confirmPassword" id="confirmPassword">
+						<span id="cPasswordMissing" class="error-message"> Field Required</span><br>
+						<span id="passwordDifferent" class="error-message">Passwords don't match</span><br>
+						
+						First Name: <input id="fName" type="text" name="firstName"> 
+						<span id="fNameMissing" class="error-message"> Field Required</span><br><br>
+						
+						Last Name: <input id="lName" type="text" name="lastName"> 
+						<span id="lNameMissing" class="error-message"> Field Required</span><br><br>
+		 
+						Email Address: <input id="email" type="email" name="email"> 
+						<span id="emailMissing" class="error-message"> Field Required</span><br><br>
+		 
+						<input type="submit" value="Sign up!">
+						<br>
+						</form>
+				
+				
 			</div>
 			
 			<div id="footer">
