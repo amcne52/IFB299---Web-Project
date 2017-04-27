@@ -2,3 +2,8 @@
 	color: red;
 	visibility: hidden;
 }
+
+#signupForm form{
+	text-align:right;
+	margin:auto;
+}
