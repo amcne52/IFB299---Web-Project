@@ -1,0 +1,9 @@
+#properties table{
+	text-align:center;
+	margin:auto;
+	width:750px;
+}
+
+#properties td, tr{
+	padding:10px;
+}

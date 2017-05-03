@@ -5,6 +5,7 @@
 
 #logo{
 	float:left;
+	padding:20px;
 	width: 180px;
 	height:96px;
 }
@@ -62,4 +63,3 @@
 	transition: .3s color;
 	color:#3954a5;
 }
-	

@@ -4,6 +4,11 @@
 }
 
 #signupForm form{
-	text-align:right;
+	text-align:right;	 
+}
+
+#center{
 	margin:auto;
+	width:500px;
+	padding:100px;
 }

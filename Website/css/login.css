@@ -1,4 +1,6 @@
 #loginForm form{
 	text-align:center;
+	margin:auto;
 	padding:100px;
+	width:400px;
 }
