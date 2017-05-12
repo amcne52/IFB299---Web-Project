@@ -37,7 +37,7 @@
 		</head>
 <body>
 
-<h2> Welcome <?php echo $_POST["surname"]; ?> </h2> <br> 
+<h2> Welcome <?php echo $_POST["username"]; ?> </h2> <br> 
 <p> Please verify your personal information as follows: </p>
 
 
