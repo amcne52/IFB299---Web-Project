@@ -58,11 +58,11 @@
 				<form>
 					<fieldset>
 						<legend><h3>Contact Us</h3></legend>
-						First Name: <input type="text" name="firstName"><br><br>
-						Last Name: <input type="text" name="lastName">
+						First Name: <input type="text" name="firstName" required pattern = "^[a-zA-z]+$"><br><br>
+						Last Name: <input type="text" name="lastName" required pattern = "^[a-zA-z]+$">
 					<br />
 					<br />
-						Email Address: <input type="text" name="email" size="53">
+						Email Address: <input type="email" name="email" size="53">
 					<br />
 					<br />
 						<TEXTAREA NAME="Message" placeholder="Type your message here" ROWS=10 COLS=70 ></TEXTAREA>
