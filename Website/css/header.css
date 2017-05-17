@@ -29,6 +29,10 @@
 	border:#3954a5;
 }
 
+#login li a.hover{
+	border:#3954a5;
+}
+
 #nav ul{
 	  clear: both;
 	  list-style: none;
