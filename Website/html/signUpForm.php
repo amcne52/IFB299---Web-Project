@@ -1,7 +1,7 @@
 <html>
 <head>
 
-			<link rel="stylesheet" href = "../css/index.css">
+			<link rel="stylesheet" href = "../css/signedup.css">
 			<link rel="stylesheet" href="../css/header.css">
 			<link rel="stylesheet" href="../css/footer.css">
 			<link rel="stylesheet" href="../css/signup.css">
@@ -38,7 +38,9 @@
 <body>
 
 <h2> Welcome <?php echo $_POST["username"]; ?> </h2> <br> 
-<p> Please verify your personal information as follows: </p>
+<p>Thank your for signing up.</p>
+
+
 
 
 <?php
